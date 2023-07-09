@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Kojadi business</string>
+
+
+    <string name="facebook_app_id">493024825306689</string>
+    <string name="fb_login_protocol_scheme">fb493024825306689</string>
+
+    <string name="home">Home</string>
+    <string name="loan">My Loan</string>
+    <string name="profile">Profile</string>
+
+    <string name="loanamount">Laon Amount : </string>
+    <string name="period">Period : </string>
+    <string name="takephoto">Take photo with your ID</string>
+    <string name="yourname">Your Name</string>
+    <string name="selectlanguage">Select Language</string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="nricnumber">ID Number</string>
+    <string name="yournricnumber">Your ID Number</string>
+    <string name="logintxt">Log In</string>
+    <string name="donhaveacctxt">Don\'t have a account</string>
+    <string name="registernowtxt">Register Now</string>
+    <string name="registertxt">Register</string>
+    <string name="referraltxt">Referral(Optional)</string>
+    <string name="confmnotxt">Confirm Phone Number</string>
+    <string name="enterotptxt">Enter OTP</string>
+    <string name="submittxt">Submit</string>
+    <string name="congtxt">Congratulations</string>
+    <string name="succregtxt">You have sucessfully registered</string>
+    <string name="startusingloantxt">Start using loanly</string>
+    <string name="startnowtxt">Start now</string>
+    <string name="retrytxt">Retry</string>
+    <string name="closetxt">Close</string>
+    <string name="allowtxt">Allow</string>
+    <string name="rejecttxt">Reject</string>
+    <string name="loadingtxt">Loading</string>
+    <string name="preparingdatatxt">Preparing Data...</string>
+    <string name="interestloantxt">0 % Interest Loan</string>
+    <string name="periodtxt">Period</string>
+    <string name="daystxt">Days</string>
+    <string name="monthtxt">Months</string>
+    <string name="paymentamounttxt">Payment Amount</string>
+    <string name="applytxt">Apply</string>
+    <string name="gottxt">Got it within 6 minutes</string>
+    <string name="datetxt">Date</string>
+    <string name="myloantxt">My Loan</string>
+    <string name="instantloantxt">Instant Loan</string>
+    <string name="seamlesstxt">Seamless online experience</string>
+    <string name="interesttxt">Interest</string>
+    <string name="managelaontxt">Manage Loan Safely</string>
+    <string name="donapplytxt">You haven\'t applied any loan yet</string>
+    <string name="comprotxt">Please complete your profile</string>
+    <string name="referfriendtxt">Refer a Friend</string>
+    <string name="aboutustxt">About Us</string>
+    <string name="languagetxt">Language</string>
+    <string name="mobileemailaddrestxt">Mobile Number or Email address</string>
+    <string name="passwordtxt">Password</string>
+    <string name="ortxt">Or</string>
+    <string name="createnaccounttxt">Create New Account</string>
+    <string name="forgotpasstxt">Forgotten Password</string>
+    <string name="privacypolicytxt">Your data and privacy are portected by loanly</string>
+    <string name="nameasperidtxt">Name as per Id</string>
+    <string name="fillnameasidtxt">Fill in your name as per id</string>
+    <string name="emerconcttxt">Emergancy Contact</string>
+    <string name="loanrejecttxt">Loanly will reject any application if discovered the applicant has provided a false emergancy information</string>
+    <string name="nametxt">Name</string>
+    <string name="relationshiptxt">Relationship</string>
+    <string name="selectrelationshiptxt">Select Relationship</string>
+    <string name="phonenumbertxt">Phone number</string>
+    <string name="viewsampletxt">View Sample</string>
+    <string name="sampletxt">Sample</string>
+    <string name="uploadnotetxt">Plesae upload a copy of your id and a selfie video, both your face and ID should be shown clearly</string>
+    <string name="idphototxt">ID Photo</string>
+    <string name="takeselfiewithfront">Take Selfie with \"FRONT ID\"</string>
+    <string name="takeselfiewithback">Take Selfie with \"BACK ID\"</string>
+    <string name="videovoiceintrotxt">Take A Selfie Video &amp; Voice Out Introduce Yourself</string>
+    <string name="viewtutorialtxt">View Tutorial</string>
+    <string name="videotutorialtxt">Please uplaod a selfie video. Take a video arround 8-10 seconds</string>
+    <string name="selfievideotxt">Selfie Video</string>
+    <string name="sampleofidtxt">Sample of ID</string>
+    <string name="infronttxt">Infront</string>
+    <string name="backsitetxt">Backsite</string>
+    <string name="oktxt">Ok</string>
+    <string name="sampleofvideotxt">Sample of Video</string>
+    <string name="selfievideoguidetxt">Seflie Video guide</string>
+    <string name="importantthingtxt">Important thing that you should know</string>
+    <string name="makesuretxt">Make sure to shoot in a well lit area</string>
+    <string name="makesuretwotxt">Make sure that the lens scans your face accurately</string>
+    <string name="makesurethreetxt">Speak at a normal speed and express clearly</string>
+    <string name="makesurefourtxt">Please follow the below script to speak</string>
+    <string name="poweredbytxt">Powered By</string>
+    <string name="versiontxt">Version</string>
+
+
+    <string name="PrivacyPolicy">"Loanly asks for and uses your personal information and is committed to keeping this information secure and protected. This Privacy Policy explains why we require personal information and how we collect, use, disclose and secure your personal information. This Privacy Policy applies to personal information we collect from you and from third parties both, online and offline but does not apply to any psrsonal information collected by third parties from you.\n"
+                        "\n"
+    "By accessing or using the website and mobile Application, you signify that you have read, understood and agree to be bound by this Privacy Policy. We reserve the right to update or"</string>
+
+    <string name="PrivacyPolicyStatement">At Wezbsite Name, accessible at Website.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Website Name and how we use it.\n+
+                        "\n" +
+                        "If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at Email@Website.com\n" +
+                        "\n" +
+                        "This privacy policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Website Name. This policy is not applicable to any information collected offline or via channels other than this website.\n" +
+                        "\n" +
+                        "Consent\n" +
+                        "\n" +
+                        "By using our website, you hereby consent to our Privacy Policy and agree to its terms.\n" +
+                        "\n" +
+                        "Information we collect\n" +
+                        "\n" +
+                        "The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.\n" +
+                        "\n" +
+                        "If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.\n" +
+                        "\n" +
+                        "When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.\n" +
+                        "\n" +
+                        "How we use your information\n" +
+                        "\n" +
+                        "We use the information we collect in various ways, including to:\n" +
+                        "\n" +
+                        "Provide, operate, and maintain our webste\n" +
+                        "Improve, personalize, and expand our webste\n" +
+                        "Understand and analyze how you use our webste\n" +
+                        "Develop new products, services, features, and functionality\n" +
+                        "Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the webste, and for marketing and promotional purposes\n" +
+                        "Send you emails\n" +
+                        "Find and prevent fraud\n" +
+                        "Log Files\n" +
+                        "\n" +
+                        "Website Name follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information."</string>
+    <string name="information_collect">The information we collect about you will depend on the products and services we offer, on an ongoing basis. If you do not allow us to collect all the information we request, we may not be able to deliver all these services effectively.  </string>
+    <string name="contact_policy">Contact List - To check if you are eligible for a reward with our referral program. We upload your address book to help you find out which of your contacts are using Loanly. Your uploaded data is only used for matching contacts and won\'t be saved for other puposes.</string>
+    <string name="location_policy">Location - The app is intended solely for use by Users who access the Mobile Application in Malaysiya, Thailand and Indonesia. We make no representaion that the Services \(or any goods or services\) are available or otherwise suitable for use outside of Malaysia, Thailand and Indonesia.</string>
+    <string name="photo_policy">Photo - To make your application process easier and to upload your photo for verification, and as part of our Customer Identificaion process.</string>
+
+    <string name="selfievideoguideunderlinetxt"><u>Selfie Video Guide</u></string>
+    <string name="selfie_text_message"> Important thing that you should know\:\- \n\n
+        \- Make sure to shoot in a well-lit area. \n
+        \- Make sure that the lens scans your face accurately. \n
+        \- Speak at a normal speed and express clearly.
+    </string>
+    <string name="selfie_text_language"> Please follow the below scirpt to speak\:\- \n\n
+        IN English \: I am XXX, my id is XXXXXX-XX-XXXX and I want to apply for loan from loanly. \n\n
+        IN Malay \: Saya XXX, id saya adalah XXXXXX-XX-XXXX dan saya ingin memohon pinjaman dari loanly. \n\n
+        IN Mandarin \: 我是XXX，我的id是XXXXXX-XX-XXXX 我想向loanly申请贷款。
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bottom_holder">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">My Loan</string>
+    <string name="title_notifications">Profile</string>
+
+</resources>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".FacebookDesignActivity">
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="10dp">
+
+            <ImageView
+                android:id="@+id/fbicon"
+                android:layout_centerVertical="true"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/icn_facebook" />
+
+            <TextView
+                android:id="@+id/txtFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/fbicon"
+                android:text="Facebook"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtFacebookTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtFacebook"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/fbicon"
+                android:text="Open in the Facebook app"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                 />
+
+            <TextView
+                android:id="@+id/txtOpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:text="OPEN"
+                android:textColor="@color/blue"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightyellow"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp">
+
+            <ImageView
+                android:id="@+id/mobicon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icn_smartphone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:layout_toRightOf="@+id/mobicon"
+                android:text="Get Facebook for iPhone and browser faster."
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="Facebook"
+            android:textColor="@color/blue"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etMobileNumberId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/capsul_gray_border_button"
+            android:hint="@string/mobileemailaddrestxt"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp" />
+
+        <EditText
+            android:id="@+id/etpasswordId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/capsul_gray_border_button"
+            android:hint="@string/passwordtxt"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp" />
+
+        <Button
+            android:id="@+id/btnFbLoginId"
+            android:text="@string/logintxt"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            android:background="@drawable/capsul_blue_btn"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="7"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="3"
+                android:background="@color/grey"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="1dp"/>
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/ortxt"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_weight="3"
+                android:background="@color/grey"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="1dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnFbRegisterId"
+            android:text="@string/createnaccounttxt"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/capsul_green_btn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Forgotton password?"
+            android:textColor="@color/grey"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="English(UK)"
+                    android:textColor="@color/grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Language"
+                    android:textColor="@color/grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Espanol"
+                    android:textColor="@color/grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Bahasa Melayu"
+                    android:textColor="@color/grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Bahasa Indonesia"
+                    android:textColor="@color/grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="China"
+                    android:textColor="@color/grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="About"
+                android:textColor="@color/grey"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:background="@color/grey"
+                android:layout_marginRight="10dp"
+                android:layout_width="1dp"
+                android:layout_height="1dp"/>
+            <TextView
+                android:text="Help"
+                android:textColor="@color/grey"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:background="@color/grey"
+                android:layout_marginRight="10dp"
+                android:layout_width="1dp"
+                android:layout_height="1dp"/>
+            <TextView
+                android:text="More"
+                android:textColor="@color/grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="Facebook Inc."
+            android:textColor="@color/grey"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

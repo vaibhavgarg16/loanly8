@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/homeId">
+
+    <fragment
+        android:id="@+id/homeId"
+        android:name="com.loan8.loan8.fragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/myLoanId"
+        android:name="com.loan8.loan8.fragments.LoanFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_loan" />
+
+    <fragment
+        android:id="@+id/profileId"
+        android:name="com.loan8.loan8.fragments.ProfileFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_profile" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_completeProfile"-->
+<!--        android:name="com.loan8.loan8.fragments.CompleteProfileActivity"-->
+<!--        android:label="@string/title_notifications"-->
+<!--        tools:layout="@layout/activity_complete_profile" />-->
+</navigation>

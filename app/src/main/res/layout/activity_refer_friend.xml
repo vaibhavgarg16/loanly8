@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReferFriendActivity">
+
+    <ImageView
+        android:id="@+id/imgReferId"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icn_refer"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+    <TextView
+        android:id="@+id/txtInviteId"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_below="@+id/imgReferId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Invite your friend to Loanly apps now!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/linearOneId"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txtInviteId"
+        android:layout_marginTop="28dp"
+        android:layout_marginHorizontal="20dp"
+        android:padding="15dp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/capsul_blue_border_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtShareId"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_below="@+id/imgReferId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Share Your Referrel code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtRefId"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/imgReferId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="601123812137"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtCopyId"
+            android:textColor="@color/blue"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/imgReferId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnShareNowId"
+        android:text="Share Now"
+        android:textColor="@color/white"
+        android:layout_below="@+id/linearOneId"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/capsul_blue_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnRefHisId"
+        android:text="Your Referral History"
+        android:textColor="@color/blue"
+        android:layout_below="@+id/btnShareNowId"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/capsul_blue_border_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
